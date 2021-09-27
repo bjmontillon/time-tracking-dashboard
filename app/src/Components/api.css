@@ -1,18 +1,108 @@
-div:nth-last-child(6) {
-    
+
+
+div:nth-last-child(6) div /**/ {
+    background-color: hsl(15, 100%, 70%);
+    height: 100%;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
-div:nth-last-child(5) {
-    
+div:nth-last-child(5) div /**/ {
+    background-color: hsl(195, 74%, 62%);
+    height: 100%;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
-div:nth-child(3) {
-    
+div:nth-child(3) div /**/ {
+    background-color: hsl(348, 100%, 68%);
+    height: 100%;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
-div:nth-child(4) {
-    
+div:nth-child(4) div /**/ {
+    background-color: hsl(145, 58%, 55%);
+    height: 100%;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
-div:nth-child(5) {
-    
+div:nth-child(5) div /**/ {
+    background-color: hsl(264, 64%, 52%);
+    height: 100%;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
-div:nth-child(6) {
-    
+div:nth-child(6) div /**/ {
+    background-color:  hsl(43, 84%, 65%);
+    height: 100%;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
+
+div:nth-last-child(6) div div/**/ {
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(235, 46%, 20%);
+    height: 80%;
+    border-radius: 13px;
+    color: hsl(0, 0%, 100%);
+}
+div:nth-last-child(5) div div/**/ {
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(235, 46%, 20%);
+    height: 80%;
+    border-radius: 13px;
+    color: hsl(0, 0%, 100%);
+}
+div:nth-child(3) div div/**/ {
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(235, 46%, 20%);
+    height: 80%;
+    border-radius: 13px;
+    color: hsl(0, 0%, 100%);
+}
+div:nth-child(4) div div/**/ {
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(235, 46%, 20%);
+    height: 80%;
+    border-radius: 13px;
+    color: hsl(0, 0%, 100%);
+}
+div:nth-child(5) div div/**/ {
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(235, 46%, 20%);
+    height: 80%;
+    border-radius: 13px;
+    color: hsl(0, 0%, 100%);
+}
+div:nth-child(6) div div/**/ {
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-around;
+    background-color:  hsl(235, 46%, 20%);
+    max-height: 80%;
+    border-radius: 13px;
+    color: hsl(0, 0%, 100%);
+}
+
+
+
