@@ -14,10 +14,10 @@ const Api= () => {
                 maxWidth: '60vw',
             },
             contentWrapper: {
-               
+               margin: '0'
             },
             firstInnerContainer: {
-                
+                padding: '0 15px',
                 display: 'flex',
                 height: "60vh",
                 
@@ -32,6 +32,7 @@ const Api= () => {
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: "space-between",
+                
             },
             cardAvatar: {
                 backgroundColor: "hsl(246, 80%, 60%)",
@@ -70,7 +71,7 @@ const Api= () => {
              return <Grid item xs={12} md={4}>
                         <div>
                             <div>
-                                <h1>{data.title}</h1>
+                                <p>{data.title}</p>
                                 <p>{data.timeframes.daily.current}</p>
                                 <p>{data.timeframes.daily.previous}</p>
                             </div>
@@ -80,7 +81,7 @@ const Api= () => {
 
         let weekly= jsonData.map((data, index) => { return <Grid item xs={12} md={4}>
                         <div><div>
-                        <h1>{data.title}</h1>
+                        <p>{data.title}</p>
                         <p>{data.timeframes.weekly.current}</p>
                         <p>{data.timeframes.weekly.previous}</p>
                         </div></div>
@@ -89,7 +90,7 @@ const Api= () => {
 
         let monthly = jsonData.map((data, index) => { return <Grid item xs={12} md={4}>
             <div><div>
-                        <h1>{data.title}</h1>
+                        <p>{data.title}</p>
                         <p>{data.timeframes.monthly.current}</p>
                         <p>{data.timeframes.monthly.previous}</p>
                         </div></div>
@@ -119,7 +120,7 @@ const Api= () => {
 
             <Container className={classes.mainContainer}>
 
-                <Grid container className={classes.contentWrapper} spacing={2}>
+                <Grid container className={classes.contentWrapper}>
 
                     <Grid container className={classes.firstInnerContainer} item xs={12} md={3} lg={3}>
                             

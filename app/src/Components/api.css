@@ -1,4 +1,8 @@
-
+div:nth-last-child(6) {
+    background-image: url(../images/icon-work.svg);
+    background-repeat: no-repeat;
+    background-clip: content-box;
+}
 
 div:nth-last-child(6) div /**/ {
     background-color: hsl(15, 100%, 70%);
