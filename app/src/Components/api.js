@@ -57,6 +57,9 @@ const Api= () => {
                 flexDirection: 'column',
                 alignItems: 'flex-start',
                 justifyContent: "space-around",
+            },
+            avatarName: {
+                
             }
         })
 
@@ -128,6 +131,8 @@ const Api= () => {
                             <div className={classes.cardAvatar}>
                             
                                 <img src='./images/image-jeremy.png' alt='profilepic' width="500" height="600" />
+                                <p>Report for</p>
+                                <h1 className={classes.avatarName}>Jeremy Robson</h1>
                             </div>
                             <div className={classes.buttonContainer}>
                                 <button className={classes.uiButton} onClick={changeDaily}>Daily</button >
